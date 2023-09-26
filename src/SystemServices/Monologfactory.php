@@ -1,8 +1,10 @@
 <?php
 
+namespace App\SystemServices;
+
+use Monolog\Handler\StreamHandler;
 use MonoLog\Level;
-use MonoLog\Logger;
-use MonoLog\handler\StraemHandler;
+use Monolog\Logger;
 
 Class MonologFactory{
 
@@ -10,8 +12,8 @@ Class MonologFactory{
 
     public static function getInstance(){
         if(self::$logger == null){
-        self::$logger = new Logger('MEUAPP');
-        self::$logger->pushHandler(new StraemHandler('meuslog.log', Level::Error));
+            self::$logger = new Logger("MEUAPP");
+            self::$logger->pushHandler(new StreamHandler('meuslog.log', Level::Debug));
             return self::$logger;
         }
         else {
