@@ -1,0 +1,5 @@
+[2023-09-26T02:47:39.350571+02:00] MEUAPP.ERROR: Isso seria se meu app desse um erro... [] []
+[2023-09-26T02:47:55.283396+02:00] MEUAPP.ERROR: Isso seria se meu app desse um erro... [] []
+[2023-09-26T02:48:30.716652+02:00] MEUAPP.INFO: apenas uma informação que eu programei julgo relevante loggar [] []
+[2023-09-26T02:48:30.717617+02:00] MEUAPP.DEBUG: Arquivo main.php rodando... [] []
+[2023-09-26T02:48:30.717667+02:00] MEUAPP.ERROR: Isso seria se meu app desse um erro... [] []
